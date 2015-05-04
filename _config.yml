@@ -1,0 +1,8 @@
+name: "Aman Dogra"
+description: "Aman Dogra testing Jekyll"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
