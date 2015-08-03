@@ -10,6 +10,23 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.clearfix:before, .clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
 .wrap {
     text-align: left;
 }
@@ -67,11 +84,29 @@ a.post-link:hover {
     font-family: 'Source Serif Pro', serif;
     font-size: 18px;
 }
+/*pagination*/
+.pagination {
+    border-top: 2px solid #ecf0f1;
+    padding: 16px 0;
+    text-align: center;
+}
+.pagination-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7f8c8d;
+    padding: 0 16px;
+}
+.pagination-item.disabled {
+    color: #ecf0f1;
+}
 /*footer*/
 footer {
     margin-top: 40px;
     padding: 16px 0;
-    border-top: 2px solid #ecf0f1;
+    background: #ecf0f1;
     font-family: 'Source Serif Pro', serif;
     color: #95a5a6;
 }
