@@ -1,6 +1,6 @@
 # A man’s code
 This is a learning experiene which I am going through. In this blog, I would like to share/record the my learning journey.
-You could visit this blog at [http://amandogra.github.io/](http://amandogra.github.com)
+You could visit this blog at [http://amandogra.github.io/](http://amandogra.github.io)
 
 This blog is based on the pixyll theme created by John Otander which could be found at [pixyll.com](http://www.pixyll.com)
 
