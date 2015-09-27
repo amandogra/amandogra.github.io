@@ -12,8 +12,6 @@ Schoolism
 I have completed the first chapter. I think it had 8 parts. There was an exercise too in which you have to sketch 5 faces including one that of Kim Jong-un. Out of 5, I have done only one, that also not complete.
 This is shown in the screenshot below:
 ![Eric’s carricature]({{ site.url }}assets/Eric.jpg)
-and this is the original:
-![Eric]({{ site.url }}assets/eric_ref.jpg)
 
 
 LearnPythonTheHardWay
