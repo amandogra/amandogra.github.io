@@ -1,5 +1,5 @@
 # Site settings
-title:       A man's code
+title:       Aman Dogra
 email:       amandogra@gmail.com
 author:      Aman Dogra
 description: "A single place to record all the progress I am trying to make or making in my projects"
@@ -20,10 +20,10 @@ show_social_icons:  false
 disqus_shortname:
 
 # Social icons
-github_username:
+github_username: amandogra
 stackoverflow_id:
 twitter_username:
-google_plus_id:
+google_plus_id: amandogra
 linkedin_username:
 angellist_username:
 medium_id:
@@ -32,10 +32,10 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
-share_facebook: false
+share_facebook: true
 share_twitter: false
 share_googleplus: false
 share_linkedin: false
@@ -51,6 +51,7 @@ redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
 paginate:     4
+paginate_path: "/blog/page:num/"
 sass:
   compressed: true
 gems:

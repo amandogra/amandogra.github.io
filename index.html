@@ -1,24 +1,10 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <div class="posts">
-    {% for post in paginator.posts %}
-      <div class="post py3">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <p class="post-summary">
-          {% if post.summary %}
-            {{ post.summary }}
-          {% else %}
-            {{ post.excerpt }}
-          {% endif %}
-        </p>
-      </div>
-    {% endfor %}
-  </div>
-
-  {% include pagination.html %}
+<div class="center">
+    <img class="profile-img" src="https://scontent.fsnc1-1.fna.fbcdn.net/hprofile-xpa1/v/t1.0-1/c79.29.548.548/s100x100/12240010_10156292675855055_385294522036482078_n.jpg?oh=816ec3a3cfc9a988dc468e8e6c5eb2e1&amp;oe=56FFA77F" width="100" height="100" alt="Aman Dogra">
+    <p>
+    A front-end web developer, an artist and a human being
+    </p>
+    <p>Thank you.</p>
 </div>

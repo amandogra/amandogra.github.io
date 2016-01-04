@@ -1,7 +1,7 @@
 .site-header {
   padding-top: $space-1;
   padding-bottom: $space-2;
-  background: $red; //$dark-green;
+  background: $wet-asphalt; //$red; //$dark-green;
 }
 
 .site-header a {
@@ -28,9 +28,9 @@
 .site-header nav a:hover,
 .site-header nav a:focus,
 .site-header nav a:active {
-  color: $dark-gray;
+  color: $light-gray;
   opacity: 1;
-  border-bottom: 2px solid $dark-gray;
+  border-bottom: 2px solid $light-gray;
 }
 
 .site-nav a + a {
