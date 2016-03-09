@@ -1,58 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title:       Aman Dogra
-email:       amandogra@gmail.com
-author:      Aman Dogra
-description: "A single place to record all the progress I am trying to make or making in my projects"
-baseurl:     ""
-url:         "http://amandogra.github.io/"
+title: Aman Dogra
+email: amandogra@gmail.com
+description: A single place to record all the progress I am trying to make or making in my projects
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://amandogra.github.io" # the base hostname & protocol for your site
 
-# Google analytics
-google_analytics:
-
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
-show_social_icons:  false
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
-# Social icons
-github_username: amandogra
-stackoverflow_id:
-twitter_username:
-google_plus_id: amandogra
-linkedin_username:
-angellist_username:
-medium_id:
-bitcoin_url:
-paypal_url:
-flattr_button:
-
-# Post sharing icons
-show_sharing_icons: true
-share_text: 'Share this post!'
-# Change to 'true' to enable individual icons
-share_facebook: true
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
+# Social sites
+twitter_username: amandogra
+github_username:  amandogra
+linkedin_username:    amandogra
+google_plus_username: amandogra
+facebook_username:    amandogra
 
 # Build settings
-markdown:     kramdown
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     4
-paginate_path: "/blog/page:num/"
 sass:
   compressed: true
-gems:
-  - jekyll-sitemap
+markdown: kramdown
+
+# Default extension for new posts and pages
+post_ext: markdown
+page_ext: html
+
+# Default templates for posts and pages
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Change default template file (in _templates/)
+post_template: post
+page_template: page
+draft_template: draft
