@@ -5,7 +5,8 @@ date:       2015-09-10 12:12:18
 summary:    We all have bucket lists. This list is my bucket list in learning category. There are few things which I have started learning this year. This post is the initial step towards the progress.
 categories: personal
 ---
-
+We all have bucket lists. This list is my bucket list in learning category. There are few things which I have started learning this year. This post is the initial step towards the progress.
+<!--more-->
 
 Schoolism
 ---------

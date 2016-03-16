@@ -1,0 +1,23 @@
+---
+layout: post
+title: '>Bevel Images with only CSS'
+date: 2010-03-10 08:36:00.000000000 -08:00
+type: post
+published: true
+status: publish
+categories: []
+tags: []
+meta:
+  blogger_blog: meraaaj.blogspot.com
+  blogger_author: Aman Dogra
+  blogger_5b414faa76516d87e0b4b243ad1d0e3b_permalink: '7242705486134891153'
+author:
+  login: amandogra
+  email: amandogra@gmail.com
+  display_name: Aman Dogra
+  first_name: ''
+  last_name: ''
+---
+<p>&gt;<strong>CSS method for adding a beveled effect to images</strong> like this:
+<pre><strong></strong><a href="http://amandogra.files.wordpress.com/2010/03/rgbaborders-eg2.jpg"><img src="{{ site.baseurl }}/assets/rgbaborders-eg2.jpg?w=200" alt="" border="0" /></a><span style="font-weight:bold;"><br />CSS:</span><br /><code><br />span.bevel {<br />position:relative;<br />width:200px; /*width of image*/<br />height:200px; /*height of image*/<br />display:block;<br />}<br />span.bevel span {<br />position:absolute;<br />left:0;<br />top:0;<br />display:block;<br />width:190px; /*width of image - 2(width of bevel*/<br />height:190px;</code><code>/*height of image - 2(height of bevel)*/</code><code><br />border:5px solid;<br />border-color:#fff #000 #000 #fff;<br />filter:alpha(opacity=40);<br />opacity:0.4;<br />}<br /><br /></code><br /><span style="font-weight:bold;"><br />HTML:</span><br /><code><br />&lt;span class="beveled"&gt;<br />&lt;img src="http://www.blogger.com/stormtroopers.jpg" alt="LegoStormtroopers" /&gt;<br />&lt;span&gt;&lt;/span&gt;&lt;/span&gt;<br />&lt;!--Do NOT remove this extra span--&gt;<br /></code></pre>
+<div class="blogger-post-footer"><img width="1" height="1" src="{{ site.baseurl }}/assets/" alt="" /></div>

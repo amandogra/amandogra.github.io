@@ -5,7 +5,8 @@ date:       2015-09-10 12:48:28
 summary:    This is the list of projects which I am working on or am planning for. These are not in any order. I want to finish these as soon as possible.
 categories: personal
 ---
-This is a list which I am planning to move to `_projects` folder in future.
+This is the list of projects which I am working on or am planning for. These are not in any order. I want to finish these as soon as possible. This is a list which I am planning to move to `_projects` folder in future.
+<!--more-->
 
 Fuel Economy (Mileage)
 ---------

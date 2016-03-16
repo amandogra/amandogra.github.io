@@ -5,6 +5,7 @@ date: 2016-03-09T11:59:00-08:00
 ---
 
 I've been using jekyll for few months now. I like this framework because you can blog using markdown through ViM in your very own terminal (iTerm). I have a blog which I was (somewhat) mantaining at [amandogra.github.io](http://amandogra.github.io), but the problem with that blog was that I was not satisfied with the theme. I was a wonderful theme by crafted by [John Otander](http://johnotander.com/) ([@4lpine](https://twitter.com/4lpine)), but I wanted somthing with my stamp on it. Plus I also wanted to learn the hidden secrets of the awesome jekyll framework. 
+<!--more-->
 
 ## Getting rid of the current setup
 To get rid of the current setup I did the following:

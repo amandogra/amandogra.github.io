@@ -5,6 +5,8 @@ date:       2015-08-06 12:32:18
 summary:    Transform your plain text into static websites and blogs. Simple, static, and blog-aware.
 categories: jekyll
 ---
+Transform your plain text into static websites and blogs. Simple, static, and blog-aware.
+<!--more-->
 Jekyll is a tool for transforming your plain text into static websites and 
 blogs. It is simple, static, and blog-aware. Jekyll uses the 
 [Liquid](http://docs.shopify.com/themes/liquid-basics) templating
@@ -15,10 +17,11 @@ It also ties in nicely to [Github Pages](https://pages.github.com/).
 
 Learn more about Jekyll on their [website](http://jekyllrb.com/).
 
-##Why I used Jekyll?
+## Why I used Jekyll?
+
 Now the question arises why I used Jekyll. Short answer is just to learn a new thing. Long answer is 
 my friend [Rakesh](https://github.com/rakeshjuyal) told me about it few days ago and said that he would like to know how it works.
-I gave it a shot, googled for few minutes, found [tutorial] (http://code.tutsplus.com/tutorials/using-jekyll--cms-20956) and after
+I gave it a shot, googled for few minutes, found a [tutorial](http://code.tutsplus.com/tutorials/using-jekyll--cms-20956) and after
 few minutes was having a page at [Github](http://amandogra.github.io). I showed it to Rakesh and he was impressed.
 
 But I was not as it was a static ugly page and I didn’t add any post at that time. After few days, I saw a person creating a complete

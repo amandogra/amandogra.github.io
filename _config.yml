@@ -23,6 +23,16 @@ facebook_username:    amandogra
 sass:
   compressed: true
 markdown: kramdown
+include: [blog]
+kramdown:
+  auto_ids: true
+  input: GFM
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+#pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Default extension for new posts and pages
 post_ext: markdown
@@ -33,10 +43,15 @@ page_ext: html
 post_layout: post
 page_layout: page
 
-# Format titles with titlecase?
+# Format of posts
 titlecase: true
+excerpt_separator: <!--more-->
 
 # Change default template file (in _templates/)
 post_template: post
 page_template: page
 draft_template: draft
+
+#gems
+gems:
+    - jekyll-paginate

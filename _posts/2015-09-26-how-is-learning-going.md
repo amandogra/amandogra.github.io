@@ -5,7 +5,8 @@ date:       2015-09-26 10:31:20
 summary:    After sixteen days, I would like to record my progress about the learning list which I mentioned in my last post.
 categories: personal
 ---
-
+After sixteen days, I would like to record my progress about the learning list which I mentioned in my last post.
+<!--more-->
 
 Schoolism
 ---------
