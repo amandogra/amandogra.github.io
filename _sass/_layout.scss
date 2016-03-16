@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -11,10 +10,10 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-family: $san-serif-font-family;
+    font-size: 24px;
     font-weight: 300;
     line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
 
@@ -96,6 +95,20 @@
 /**
 * Hero on Home
  */
+.jekyll-banner {
+     position: fixed;
+     top: 20px;
+     right: -34px;
+     z-index: 2;
+     font-size: 50%;
+     color: white;
+     background-color: $royal-blue-color;
+     padding: 5px 30px;
+     -webkit-transform: rotate(45deg);
+     -moz-transform:    rotate(45deg);
+     -ms-transform:     rotate(45deg);
+     -o-transform:      rotate(45deg);
+}
 .home.wrapper {
     text-align: center;
     padding-top: $spacing-unit;
@@ -106,7 +119,9 @@
     padding: 4px;
 }
 .hero-text {
+    color: $brand-color;
     font-size: 36px;
+    font-family: $san-serif-font-family;
     padding : $spacing-unit 0 0;
 }
 .hero-props {
@@ -130,10 +145,17 @@
         padding: 4px 16px;
         border: 1px solid $brand-color;
         border-radius: 24px;
+        -webkit-transition: background-color 500ms linear;
+        -moz-transition: background-color 500ms linear;
+        -o-transition: background-color 500ms linear;
+        -ms-transition: background-color 500ms linear;
+        transition: background-color 500ms linear;
+
         &:hover {
             border-color: darken($brand-color, 15%);
             text-decoration: none;
-            background-color: $grey-color-light;
+            background-color: $brand-color;
+            color: white;
         }
     }
 }
@@ -151,10 +173,29 @@
             border: 1px solid $grey-color;
             border-radius: 54px;
             color: $grey-color;
+            -webkit-transition: background-color 500ms linear;
+            -moz-transition: background-color 500ms linear;
+            -o-transition: background-color 500ms linear;
+            -ms-transition: background-color 500ms linear;
+            transition: background-color 500ms linear;
+
             &:hover {
                 border-color: darken($grey-color, 15%);
                 text-decoration: none;
                 background-color: $grey-color-light;
+                color: white;
+            }
+            &.twitter:hover {
+                 background-color: $twitter-color;
+            }
+            &.facebook:hover {
+                 background-color: $facebook-color;
+            }
+            &.github:hover {
+                 background-color: $github-color;
+            }
+            &.linkedin:hover {
+                 background-color: $linkedin-color;
             }
         }
     }
@@ -165,7 +206,8 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    background-color: lighten($grey-color, 45%);
+    background-color: $footer-bg-color; //lighten($grey-color, 45%);
+    color: $footer-color;
     /*position: fixed;*/
     /*bottom: 0;*/
     /*width: 100%;*/
@@ -180,14 +222,37 @@
         display: inline-block;
         padding: 0 4px;
         a {
-            color: $grey-color;
+            color: $footer-color;
+            &.facebook:hover {
+                 color: $facebook-color;
+            }
+
+            &.github:hover {
+                 color: $github-color;
+            }
+
+            &.linkedin:hover {
+                 color: $linkedin-color;
+            }
+
+            &.google:hover {
+                 color: $google-color;
+            }
+
+            &.twitter:hover {
+                 color: $twitter-color;
+            }
+
+            &.envelope:hover {
+                 color: $envelope-color;
+            }
         }
     }
 }
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $footer-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -204,7 +269,10 @@
 
 
 /****Sticky footer****/
-$sticky-footer-height: 97px;
+$sticky-footer-height: 101px;
+@include media-query($on-palm) {
+    $sticky-footer-height: 112px;
+}
 html, body {
   height: 100%;
 }
@@ -261,7 +329,7 @@ html, body {
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        padding-bottom: $spacing-unit;
     }
 }
 
@@ -281,10 +349,14 @@ html, body {
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    text-align: center;
+    /*margin-bottom: $spacing-unit;*/
+    padding: 0 16px 15px;
+    border-bottom: 1px solid $grey-color-light;
 }
 
 .post-title {
+    color: $brand-color;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -295,9 +367,12 @@ html, body {
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    &.single {
+        padding: $spacing-unit 0;
+    }
 
     h2 {
+        color: $brand-color;
         font-size: 32px;
 
         @include media-query($on-laptop) {
@@ -306,6 +381,7 @@ html, body {
     }
 
     h3 {
+        color: $brand-color;
         font-size: 26px;
 
         @include media-query($on-laptop) {
@@ -314,10 +390,95 @@ html, body {
     }
 
     h4 {
+        color: $brand-color;
         font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
+        }
+    }
+}
+
+.pagination {
+    @extend %clearfix;
+    border-top: 1px solid $grey-color-light;
+    padding-top: $spacing-unit;
+    .prev, .next {
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        padding: 4px 16px 4px 24px;
+        border: 1px solid $brand-color;
+        border-radius: 24px;
+        -webkit-transition: background-color 500ms linear;
+        -moz-transition: background-color 500ms linear;
+        -o-transition: background-color 500ms linear;
+        -ms-transition: background-color 500ms linear;
+        transition: background-color 500ms linear;
+
+        &:hover {
+            border-color: darken($grey-color-dark, 15%);
+            text-decoration: none;
+            background-color: $grey-color-dark;
+            color: white;
+        }
+        &.disabled {
+             border-color: $grey-color-light;
+             color: $grey-color;
+             &:hover {
+                 border-color: $grey-color-light;
+                 background-color: white;
+                 color: $grey-color;
+                 cursor: not-allowed;
+             }
+        }
+    }
+    .prev {
+         float: left;
+         max-width: 42%;
+         &:before {
+             display: inline-block;
+             font: normal normal normal 14px/1 FontAwesome;
+             font-size: inherit;
+             text-rendering: auto;
+             -webkit-font-smoothing: antialiased;
+             -moz-osx-font-smoothing: grayscale;
+              position: absolute;
+              top: 8px;
+              left: 8px;
+              z-index: 1;
+              content: "\f104";
+         }
+    }
+    .next {
+        float: right;
+        max-width: 42%;
+        padding: 4px 24px 4px 16px;
+         &:after {
+             display: inline-block;
+             font: normal normal normal 14px/1 FontAwesome;
+             font-size: inherit;
+             text-rendering: auto;
+             -webkit-font-smoothing: antialiased;
+             -moz-osx-font-smoothing: grayscale;
+              position: absolute;
+              top: 8px;
+              right: 8px;
+              z-index: 1;
+              content: "\f105";
+         }
+    }
+
+    @include media-query($on-palm) {
+        .prev {
+            float: none;
+            max-width: 100%;
+        }
+        .next {
+            float: right;
+            max-width: 100%;
         }
     }
 }

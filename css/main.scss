@@ -6,25 +6,41 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-family: "Open Sans", "Helvetica Nueue", Helvetica, Arial, Verdana, sans-serif;
+$serif-font-family: 'Fauna One', 'Palatino Linotype', 'Book Antiqua3', Palatino6, serif;
+$san-serif-font-family: "Kanit", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   14px;
+$base-font-weight: 200;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.75;
+$heading-font-size:  24px;
+$heading-font-weight: 300;
+$large-font-size:  $base-font-size * 1.275;
+$heading-line-height: 1.5;
 
+$text-letter-spacing: 0.25px;
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #424242;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #f78769; //#96281B;//#34495e;//#C0392B; //#1abc9c;//#e74c3c;
+$footer-bg-color: $brand-color;//whitesmoke
+$footer-color: white;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$royal-blue-color: #1756A9;
+$twitter-color: #55acee;
+$facebook-color: #3b5998;
+$github-color: #171515;
+$google-color: #F90101;
+$linkedin-color: #0077bb;
+$envelope-color: #dddddd;
+
 // Width of the content area
 $content-width:    800px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 

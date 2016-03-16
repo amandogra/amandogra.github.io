@@ -23,6 +23,7 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    letter-spacing: $text-letter-spacing;
 }
 
 
@@ -34,7 +35,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    padding-bottom: $spacing-unit / 2;
 }
 
 
@@ -81,8 +82,9 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+h1, h2, h3, h4, h5, h6,
+h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
+        font: $heading-font-weight #{$heading-font-size}/#{$heading-line-height} $base-font-family;
 }
 
 
@@ -93,14 +95,15 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
+    /*-webkit-transition: background-color 1000ms linear;*/
+    /*-moz-transition: background-color 1000ms linear;*/
+    /*-o-transition: background-color 1000ms linear;*/
+    /*-ms-transition: background-color 1000ms linear;*/
+    /*transition: background-color 1000ms linear;*/
     &:hover {
+        /*background-color: $grey-color-light;*/
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -131,8 +134,8 @@ pre,
 code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border-radius: 4px;
+    background-color: #f7f7f9;
 }
 
 code {
