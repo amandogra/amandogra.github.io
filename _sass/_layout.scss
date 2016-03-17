@@ -208,9 +208,6 @@
     border-top: 1px solid $grey-color-light;
     background-color: $footer-bg-color; //lighten($grey-color, 45%);
     color: $footer-color;
-    /*position: fixed;*/
-    /*bottom: 0;*/
-    /*width: 100%;*/
     .wrapper {
         padding: $spacing-unit 0;
     }
@@ -270,9 +267,7 @@
 
 /****Sticky footer****/
 $sticky-footer-height: 101px;
-@include media-query($on-palm) {
-    $sticky-footer-height: 112px;
-}
+
 html, body {
   height: 100%;
 }
@@ -288,6 +283,19 @@ html, body {
 .site-footer, .page-wrap:after {
   height: $sticky-footer-height;
 }
+
+@include media-query($on-palm) {
+    $sticky-footer-height: 142px;
+    .page-wrap {
+        /* equal to footer height */
+        margin-bottom: -$sticky-footer-height;
+    }
+    .site-footer, .page-wrap:after {
+        height: $sticky-footer-height;
+        text-align: center;
+    }
+}
+
 /****/
 
 @include media-query($on-laptop) {
@@ -477,7 +485,7 @@ html, body {
             max-width: 100%;
         }
         .next {
-            float: right;
+            float: none;
             max-width: 100%;
         }
     }
