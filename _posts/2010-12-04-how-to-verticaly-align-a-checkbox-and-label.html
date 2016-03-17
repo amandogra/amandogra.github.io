@@ -1,0 +1,27 @@
+---
+layout: post
+title: '>How to verticaly align a checkbox and label'
+date: 2010-12-04 21:16:00.000000000 -08:00
+type: post
+published: true
+status: publish
+categories: []
+tags: []
+meta:
+  blogger_blog: meraaaj.blogspot.com
+  blogger_author: Aman Dogra
+  blogger_5b414faa76516d87e0b4b243ad1d0e3b_permalink: '5497478856332689272'
+author:
+  login: amandogra
+  email: amandogra@gmail.com
+  display_name: Aman Dogra
+  first_name: ''
+  last_name: ''
+---
+<p>&gt;The situation is like this. You have a checkbox and a label with small font size just next to this as shown in the code below:<br /><code><br />&lt;input type="checkbox" /&gt;<br />&lt;label style="font-size: 10px;"&gt;This is the label&lt;/label&gt;<br /></code><br />This will be displayed as:</p>
+<p>This is the label</p>
+<p>Notice that the text is not vertically aligned with the checkbox. To make it aligned vertically to the middle of the checkbox we can add following style to the label<br /><code><br />position: relative;<br />top: -2px;<br /></code><br />So the code becomes:<br /><code><br />&lt;input type="checkbox" /&gt;<br />&lt;label style="font-size: 10px;position: relative;top: -2px;"&gt;This is the label&lt;/label&gt;<br /></code><br />and it will be displayed as:</p>
+<p>This is the label</p>
+<p>Now see that the text is vertically aligned to the checkbox.</p>
+<p>Adjust the value of top according to the font size and you are good to go.
+<div class="blogger-post-footer"><img width="1" height="1" src="{{ site.baseurl }}/assets/" alt="" /></div>

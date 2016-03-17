@@ -1,10 +1,48 @@
 ---
 layout: default
 ---
-<div class="center">
-    <img class="profile-img" src="https://scontent.fsnc1-1.fna.fbcdn.net/hprofile-xpa1/v/t1.0-1/c79.29.548.548/s100x100/12240010_10156292675855055_385294522036482078_n.jpg?oh=816ec3a3cfc9a988dc468e8e6c5eb2e1&amp;oe=56FFA77F" width="100" height="100" alt="Aman Dogra">
-    <p>
-    A front-end web developer, an artist and a human being
-    </p>
-    <p>Thank you.</p>
+<div class="page-content">
+    <div class="home wrapper">
+        <img src="https://s.gravatar.com/avatar/a88020276317c22ebc3ab0185d7b4cb7?s=150" class="hero-img" alt=""/>
+        <h1 class="hero-text">
+            Aman Dogra
+        </h1>
+        <ul class="hero-props">
+            <li>web developer</li>
+            <li class="dot"><i class="fa fa-circle"></i></li>
+            <li>artist</li>
+            <li class="dot"><i class="fa fa-circle"></i></li>
+            <li>developer</li>
+        </ul>
+        <div class="call-to-action-block">
+            <a href="{{ site.baseurl }}/blog">Blog</a>
+        </div>
+        <ul class="hero-social-list">
+            {% if site.github_username %}
+            <li>
+                <a class="github" href="https://github.com/{{ site.github_username }}">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            {% endif %}
+
+            {% if site.linkedin_username %}
+            <li>
+                <a class="linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+            {% endif %}
+
+            {% if site.facebook_username %}
+            <li>
+                <a class="facebook" href="https://www.facebook.com/{{ site.facebook_username }}">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
 </div>
+
+

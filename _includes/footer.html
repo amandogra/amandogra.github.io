@@ -1,6 +1,60 @@
-<footer class="center">
-  <div class="measure">
-    This website belongs to <a href="http://amandogra.com">Aman Dogra</a>.
-    Based on the theme crafted by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>), available on <a href="https://github.com/johnotander/pixyll">Github</a>. <br />
-  </div>
+<footer class="site-footer">
+
+    <div class="wrapper">
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+                <p class="copy">&copy; {{ site.title }}</p>
+            </div>
+            <div class="footer-col footer-col-right">
+                <ul class="social-media-list">
+                    {% if site.email %}
+                    <li>
+                        <a class="envelope" href="mailto:{{ site.email }}" title="Email">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <li>
+                        <a class="github" href="https://github.com/{{ site.github_username }}" title="GitHub">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.twitter_username %}
+                    <li>
+                        <a class="twitter" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.linkedin_username %}
+                    <li>
+                        <a class="linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.google_plus_username %}
+                    <li>
+                        <a class="google" href="https://plus.google.com/{{ site.google_plus_username }}" title="Google">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <li>
+                        <a class="facebook" href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
 </footer>
