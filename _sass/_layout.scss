@@ -337,7 +337,12 @@ html, body {
     list-style: none;
 
     > li {
-        padding-bottom: $spacing-unit;
+        padding: $spacing-unit 0;
+        border-top: 1px solid $grey-color-light;
+        &:first-child {
+            padding-top: 0;
+            border-top: 0 none;
+        }
     }
 }
 
