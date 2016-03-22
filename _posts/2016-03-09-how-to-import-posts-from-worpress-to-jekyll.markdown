@@ -8,15 +8,15 @@ Jekyll has a very good [guide](https://import.jekyllrb.com/docs/home/) on how to
 <!--more-->
 But before that I downloaded the 'export' file from my wordpress blog (export tool)(https://amandogra.wordpress.com/wp-admin/export.php).
 
-Then, I installed the `jekyll-install` ruby gem:
+Then, I installed the `jekyll-import` ruby gem:
 
-```
+```bash
 gem install jekyll-import
 ```
 
 then I executed the following command to import the posts from `amandogra.wordpress...xml` file which I just downloaded from my wordpress blog:
 
-```
+```ruby
     ruby -rubygems -e 'require "jekyll-import";
     JekyllImport::Importers::WordpressDotCom.run({
       "source" => "amandogra.wordpress.2016-03-09.xml",

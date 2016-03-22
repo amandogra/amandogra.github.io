@@ -416,13 +416,14 @@ html, body {
     @extend %clearfix;
     border-top: 1px solid $grey-color-light;
     padding-top: $spacing-unit;
-    .prev, .next {
+    .page-link {
         position: relative;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         display: inline-block;
-        padding: 4px 16px 4px 24px;
+        margin: 0 2px;
+        padding: 4px 16px;
         border: 1px solid $brand-color;
         border-radius: 24px;
         -webkit-transition: background-color 500ms linear;
@@ -451,6 +452,8 @@ html, body {
     .prev {
          float: left;
          max-width: 42%;
+         margin-left: 0;
+         padding: 4px 16px 4px 24px;
          &:before {
              display: inline-block;
              font: normal normal normal 14px/1 FontAwesome;
@@ -468,6 +471,7 @@ html, body {
     .next {
         float: right;
         max-width: 42%;
+        margin-right: 0;
         padding: 4px 24px 4px 16px;
          &:after {
              display: inline-block;

@@ -36,3 +36,7 @@ href="&#123;&#123; site.baseurl &#125;&#125;&#123;&#123; entry.url &#125;&#125;"
 </pre>
 
 This `liquid` template simply navigates through all the pages and add only those to the navigation menu which do not have any `slug`. Pretty neat. Thanks, [Kasper Isager](https://gist.github.com/kasperisager)!
+
+{% highlight ruby linenos %}
+    {% assign entries = site.pages | sort: "path" %}
+{% endhighlight %}
