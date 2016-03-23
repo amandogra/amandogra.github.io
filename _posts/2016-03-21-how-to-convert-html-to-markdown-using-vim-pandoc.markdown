@@ -4,7 +4,9 @@ title: "How to Convert Html to Markdown Using Vim-pandoc"
 date: 2016-03-21T12:30:26-07:00
 ---
 
-After importing all my blog-posts from wordpress and blogger to Jekyll, now was the time to convert all the ugly html files to more readable markdown format. In this post I'm going to share how I did it easily and way faster than it could have taken me. <!--more-->
+After importing all my blog-posts from wordpress and blogger to Jekyll, now was the time to convert all the ugly html files to more readable markdown format. In this post I'm going to share how I did it easily and way faster than it could have taken me.
+
+<!--more-->
 
 After converting few posts from HTML to 'markdown' manually, I figured that it was time to google a better way. Then I found out [Daniel Miessler](https://danielmiessler.com/)'s [this](https://danielmiessler.com/blog/vim-pandoc-happiness/) post. He is a fan of vim, so am I and he has solved this problem two years earlier. Great! after dropping a thank-you note I got down to work.
 

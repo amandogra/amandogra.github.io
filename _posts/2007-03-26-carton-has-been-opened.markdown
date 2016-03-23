@@ -9,4 +9,5 @@ blogger_id: tag:blogger.com,1999:blog-6775081618995875832.post-24595206378693575
 blogger_orig_url: http://amandogra.blogspot.com/2007/03/carton-has-been-opened.html
 ---
 
-Hi, this is my first entry into my own blog. I don't know what to say here but I am just filling the space right now.
+Hi, this is my first entry into my own blog. I don't know what to
+say here but I am just filling the space right now.

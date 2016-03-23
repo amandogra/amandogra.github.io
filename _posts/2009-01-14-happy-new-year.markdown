@@ -15,7 +15,7 @@ blogger_orig_url: http://amandogra.blogspot.com/2009/01/happy-new-year.html
 [![](http://1.bp.blogspot.com/_s5GVahsJtq0/SYvzYI8vkcI/AAAAAAAAA6c/WDmHfimIeKM/s320/100_0150.JPG)](http://1.bp.blogspot.com/_s5GVahsJtq0/SYvzYI8vkcI/AAAAAAAAA6c/WDmHfimIeKM/s1600-h/100_0150.JPG)
 
 Year 2008 is a history now. We have left it behind but, the memories are
-still fresh. Like anybody else can say, "A lot has happened to me in
+still fresh. Like anybody I else can say, "A lot has happened to me in
 this year". In this post I am posting some of the photographs of the
 last trip which I had to my home.
 
