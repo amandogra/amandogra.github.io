@@ -4,7 +4,7 @@ title: Testing Video plugin
 date: 2010-06-16 18:09:28.000000000 -07:00
 type: post
 published: true
-status: publish
+status: unpublish
 categories: []
 tags: []
 meta:
@@ -21,7 +21,6 @@ In this post I am testing how to embed a youtune video and an MP3 file in Jekyll
 <!--more-->
 A video from You Tube is here:
 
-{% youtube iu3bX9IXLKU %}
 
 and an audio file is here:
 
