@@ -202,6 +202,29 @@
 }
 
 /**
+* Links inside posts
+*/
+
+.crux,
+.single {
+    a {
+        border-bottom: 0 solid $brand-color;
+        box-shadow: inset 0 -1.5px 0 $brand-color;
+        color: black;
+        -webkit-transition: background .15s cubic-bezier(0.33,0.66,0.66,1);
+        transition: background .15s cubic-bezier(0.33,0.66,0.66,1);
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: white;
+            background-color: $brand-color;
+            text-decoration: none;
+        }
+    }
+}
+
+/**
  * Site footer
  */
 .site-footer {

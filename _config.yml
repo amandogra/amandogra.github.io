@@ -46,6 +46,7 @@ page_ext: html
 # Found in _templates/
 post_layout: post
 page_layout: page
+project_layout: project
 
 # Format of posts
 titlecase: true
@@ -55,6 +56,7 @@ excerpt_separator: <!--more-->
 post_template: post
 page_template: page
 draft_template: draft
+project_template: project
 
 #gems
 gems:
