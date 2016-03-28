@@ -8,7 +8,7 @@ level: 1
 <div class="home">
   <ul class="post-list">
     {% for post in paginator.posts %}
-     {% if post.status != 'unpublish' and post.layout == 'post' %}
+     {% if post.status != 'unpublish' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b -d, %Y" }}</span>
 
@@ -33,6 +33,8 @@ level: 1
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
       <em class="page-link disabled">{{ page }}</em>
+    {% elsif page == 1 %}
+      <a class="page-link" href="{{ prepend: site.baseurl | replace: '//', '/' }}/blog">{{ page }}</a>
     {% else %}
       <a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
