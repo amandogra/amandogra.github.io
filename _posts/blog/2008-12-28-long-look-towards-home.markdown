@@ -1,0 +1,31 @@
+---
+layout: article
+title: A long look towards home
+date: '2008-12-28T22:46:00.000-08:00'
+author: Aman Dogra
+categories: blog
+tags:
+- kangraValley
+- himachal
+modified_time: '2009-02-27T13:33:42.871-08:00'
+thumbnail: http://1.bp.blogspot.com/_s5GVahsJtq0/SYverJ4HvLI/AAAAAAAAA58/Qn0Iet6W_-4/s72-c/100_0137a.jpg
+blogger_id: tag:blogger.com,1999:blog-6775081618995875832.post-3507959037871268627
+blogger_orig_url: http://amandogra.blogspot.com/2008/12/long-look-towards-home.html
+---
+
+[![](http://1.bp.blogspot.com/_s5GVahsJtq0/SYverJ4HvLI/AAAAAAAAA58/Qn0Iet6W_-4/s320/100_0137a.jpg)](http://1.bp.blogspot.com/_s5GVahsJtq0/SYverJ4HvLI/AAAAAAAAA58/Qn0Iet6W_-4/s1600-h/100_0137a.jpg)
+
+"A long look towards home" was the punch line which was printed on the
+tickets which we purchased for the [Tibet Museum](http://www.thetibetmuseum.org/) in McLodganj. I was home last weekend. 
+
+<!--more-->
+
+It was a vacation due to Christmas. After a very tense couple
+of weeks a trip to my home was really refreshing. With me were my
+friends, Ish, Vaibhav, Gaurav and Ramji. The picture above is a
+landscape in Kangra. This is the highest I shaped valley in Asia (or in
+world... I am not sure :P). The structure which is visible at the top of
+this cliff is 'Kangra Fort'. We also visited MacLodGanj Temple, museum,
+Bhagsunaag Temple, and Jwalamukhi Mata Temple. I really enjoyed that. To
+tell the truth I don't want to live in Delhi. I want to live and work
+from my homeplace. I am keeping my fingers crossed :). Pray for me!

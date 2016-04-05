@@ -1,0 +1,11 @@
+# Site navigation links
+
+- title: Blog
+  url: /blog/
+  excerpt: Some thoughts
+  image:
+
+- title: Work
+  url: /work/
+  excerpt: Some projects I have worked upon
+  image:

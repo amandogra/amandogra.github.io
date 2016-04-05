@@ -1,5 +1,12 @@
 ---
 layout: {{ layout }}
-title: "{{ title }}"
-date: {{ date }}
+title: {{ title }}
+modified:
+categories: {{ dir }}
+excerpt:
+tags: []
+image:
+  feature:
+  teaser:
+  thumb:
 ---
