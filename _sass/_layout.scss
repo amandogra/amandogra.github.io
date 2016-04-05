@@ -403,8 +403,12 @@ html, body {
     }
 
 }
-.blog-post-link {
+
+a.blog-post-link {
     font-weight: 400;
+    &:visited {
+         color: $grey-color;
+    }
 }
 
 
