@@ -389,6 +389,23 @@ html, body {
     font-size: 24px;
 }
 
+.blog-post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        padding: $spacing-unit-small 0;
+        border-top: 1px solid $grey-color-light;
+        &:first-child {
+            padding-top: 0;
+            border-top: 0 none;
+        }
+    }
+
+}
+.blog-post-link {
+    font-weight: 400;
+}
 
 
 /**

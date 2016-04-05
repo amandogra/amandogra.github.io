@@ -5,9 +5,9 @@ title: "Blog"
 ---
 
 <div class="">
-  <ul class="post-list">
+  <ul class="blog-post-list">
 {% for post in site.categories.blog %}
-	{% include post-list.html %}
+    {% include post-list-bullets.html %}
 {% endfor %}
 </ul>
 </div>

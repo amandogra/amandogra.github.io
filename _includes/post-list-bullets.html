@@ -1,13 +1,4 @@
-<div class="bullets">
-	{% for post in site.posts %}
-	<div class="bullet three-col-bullet">
-		<div class="bullet-icon">
-			<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/images/{{ post.image.teaser }}" alt=""></a>
-		</div><!-- /.bullet-icon -->
-		<div class="bullet-content">
-			<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-			<p>{{ post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
-		</div><!-- /.bullet-content -->
-	</div><!-- /.bullet -->
-	{% endfor %}
-</div><!-- /.bullets -->
+<li>
+    <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+    <a class="blog-post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</li>
