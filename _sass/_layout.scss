@@ -445,6 +445,9 @@ html, body {
     }
 }
 
+#disqus_thread {
+    margin-top: $spacing-unit;
+}
 .pagination {
     @extend %clearfix;
     border-top: 1px solid $grey-color-light;

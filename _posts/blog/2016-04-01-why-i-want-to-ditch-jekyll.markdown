@@ -20,7 +20,7 @@ While Jekyll has many plus points, places where it fell short are as follows:
 
 - It's written in `ruby`. I've nothing against ruby, but I consider myself as javascript expert and don't want to learn a new language to tweak it.
 - It uses `liquid` templating engine. After learning so many templating languages, I don't want to figure out how to highlight ruby code in a liquid tamplate.
-- No way to maintain the comments. Remeber it is a static website.
+- No way to maintain the comments. Remember it is a static website.
 - Pagination sucks, Jekyll doesn't have a pagination solution out of the box. I wanted to create two pages in my blog with different kinds of posts lists in my single website. One to maintain my blog and one to maintain my list of projects. Well, it's a lots of work.
 
 Although, I am writing this post in Jekyll and my blog is still being hosted by github pages (using jekyll), I've started thinking of ways to move away from it.
