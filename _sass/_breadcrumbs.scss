@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Breadcrumb navigation
+   ========================================================================== */
+
+.breadcrumbs {
+  @include row;
+  @include font-size(10,no);
+  a {
+      color: $grey-color;
+    display: inline-block;
+    font-family: $alt-font;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    &:hover {
+        color: $primary-color
+    }
+  }
+}

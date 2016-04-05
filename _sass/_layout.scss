@@ -234,6 +234,16 @@
     .wrapper {
         padding: $spacing-unit 0;
     }
+    .copy {
+        font-size: 90%;
+        a {
+            color: white;
+            text-decoration: underline;
+            &:hover {
+                color: $grey-color-dark;
+            }
+        }
+    }
 }
 .social-media-list {
     list-style: none;
@@ -256,7 +266,7 @@
             }
 
             &.google:hover {
-                 color: $google-color;
+                 color: $google-plus-color;
             }
 
             &.twitter:hover {
