@@ -15,7 +15,7 @@ startdate: 2016-01-14
 enddate: 2016-04-14
 ---
 
-<http://wpdev.bhaktiwomen.org>
+<http://bhaktiwomen.org>
 
 It is a side project, which I have been working on for the last few months. BhaktiWomen is a community of spiritually inclined women. They are a simple team of Krishna Bhakti-followers in Seattle, USA who share the desire to devote their lives wholly to please Krishna through our Bhakti as women.
 
