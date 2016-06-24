@@ -1,12 +1,41 @@
-# Skinny Bones Jekyll Starter
+# Aman Dogra
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+This repository contains the source code for [amandogra.com](http://www.amandogra.com)
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+The code is using Jekyll framework for website generation. The idea of folder structuring has come from [Skinny bones jekyll theme](http://mmistakes.github.io/skinny-bones-jekyll)
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+Feel free to give your suggestions or comments under amandogra.com.
 
----
+## How to install
+
+If you by any chance would like to use this theme in your jekyll framework, do the following:
+
+1. Install jekyll
+
+    ```
+    gem install jekyll
+    ```
+
+2. Clone the [repository](https://github.com/amandogra/amandogra.github.io.git) or download the [code](https://github.com/amandogra/amandogra.github.io/archive/master.zip)
+
+    ```
+    git clone https://github.com/amandogra/amandogra.github.io.git
+    ```
+
+3. Run the following command in the root folder
+
+    ```
+    jekyll build
+    ```
+(Note: If there are any dependencies then install those gems)
+
+4. Execute the following command:
+
+    ```
+    jekyll serve
+    ```
+
+5. Go to your browser and open `localhost:4000`
 
 ## Notable Features
 
@@ -14,4 +43,5 @@ I'm currently using a variation of it on my personal website [Made Mistakes](htt
 * Stylesheet built using Sass.
 * Data files for easier customization of the site navigation/footer and for supporting multiple authors.
 * Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
+* Clean design
 * And more.

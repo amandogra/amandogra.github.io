@@ -1,0 +1,349 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/amandogra/.nvm/versions/node/v4.1.2/bin/node',
+1 verbose cli   '/Users/amandogra/.nvm/versions/node/v4.1.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jekyll-sitemap' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 verbose install initial load of /Users/amandogra/Work/playground/amandogra.github.io/package.json
+5 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/abbrev/package.json
+6 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/adm-zip/package.json
+7 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/amdefine/package.json
+8 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/ansi-regex/package.json
+9 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/ansi-styles/package.json
+10 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/argparse/package.json
+11 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/asn1/package.json
+12 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/assert-plus/package.json
+13 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/async/package.json
+14 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/aws-sign/package.json
+15 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/aws-sign2/package.json
+16 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/aws4/package.json
+17 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/bin-build/package.json
+18 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/bin-check/package.json
+19 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/bin-wrapper/package.json
+20 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/bl/package.json
+21 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/block-stream/package.json
+22 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/boom/package.json
+23 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/bundle/package.json
+24 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/camelcase/package.json
+25 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/caseless/package.json
+26 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/chalk/package.json
+27 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/cli/package.json
+28 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/coa/package.json
+29 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/coffee-script/package.json
+30 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/colors/package.json
+31 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/combined-stream/package.json
+32 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/commander/package.json
+33 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/console-browserify/package.json
+34 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/cookie-jar/package.json
+35 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/core-util-is/package.json
+36 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/cryptiles/package.json
+37 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/dashdash/package.json
+38 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/dateformat/package.json
+39 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/debug/package.json
+40 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/decamelize/package.json
+41 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/decompress/package.json
+42 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/delayed-stream/package.json
+43 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/diff/package.json
+44 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/domelementtype/package.json
+45 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/domhandler/package.json
+46 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/domutils/package.json
+47 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/download/package.json
+48 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/duplexer/package.json
+49 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/each-async/package.json
+50 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/ecc-jsbn/package.json
+51 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/escape-string-regexp/package.json
+52 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/esprima/package.json
+53 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/eventemitter2/package.json
+54 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/executable/package.json
+55 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/exit/package.json
+56 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/ext-list/package.json
+57 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/ext-name/package.json
+58 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/extend/package.json
+59 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/extsprintf/package.json
+60 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/faye-websocket/package.json
+61 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/filesize/package.json
+62 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/find-file/package.json
+63 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/findup-sync/package.json
+64 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/forever-agent/package.json
+65 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/form-data/package.json
+66 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/fstream/package.json
+67 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/gaze/package.json
+68 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/generate-function/package.json
+69 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/generate-object-property/package.json
+70 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/get-stdin/package.json
+71 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/get-urls/package.json
+72 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/getobject/package.json
+73 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/gifsicle/package.json
+74 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/glob/package.json
+75 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/globule/package.json
+76 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/got/package.json
+77 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/graceful-fs/package.json
+78 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/graceful-readlink/package.json
+79 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/growl/package.json
+80 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt/package.json
+81 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-contrib-imagemin/package.json
+82 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-contrib-jshint/package.json
+83 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-contrib-uglify/package.json
+84 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-contrib-watch/package.json
+85 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-imgcompress/package.json
+86 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-legacy-log/package.json
+87 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-legacy-log-utils/package.json
+88 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-legacy-util/package.json
+89 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-lib-contrib/package.json
+90 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-newer/package.json
+91 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-surround/package.json
+92 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/grunt-svgmin/package.json
+93 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/har-validator/package.json
+94 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/has-ansi/package.json
+95 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/has-color/package.json
+96 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/hawk/package.json
+97 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/hoek/package.json
+98 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/hooker/package.json
+99 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/htmlparser2/package.json
+100 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/http-signature/package.json
+101 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/iconv-lite/package.json
+102 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/image-min/package.json
+103 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/inherits/package.json
+104 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/is-my-json-valid/package.json
+105 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/is-property/package.json
+106 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/is-typedarray/package.json
+107 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/isarray/package.json
+108 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/isstream/package.json
+109 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/jade/package.json
+110 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/jodid25519/package.json
+111 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/jpegtran-bin/package.json
+112 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/js-yaml/package.json
+113 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/jsbn/package.json
+114 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/jshint/package.json
+115 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/json-schema/package.json
+116 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/json-stringify-safe/package.json
+117 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/jsonpointer/package.json
+118 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/jsprim/package.json
+119 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/lodash/package.json
+120 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/log-symbols/package.json
+121 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/lru-cache/package.json
+122 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/mime/package.json
+123 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/mime-db/package.json
+124 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/mime-types/package.json
+125 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/minimatch/package.json
+126 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/minimist/package.json
+127 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/mkdirp/package.json
+128 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/mocha/package.json
+129 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/mout/package.json
+130 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/ms/package.json
+131 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/node-uuid/package.json
+132 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/nopt/package.json
+133 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/noptify/package.json
+134 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/oauth-sign/package.json
+135 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/object-assign/package.json
+136 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/object-keys/package.json
+137 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/optipng-bin/package.json
+138 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/pinkie/package.json
+139 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/pinkie-promise/package.json
+140 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/pretty-bytes/package.json
+141 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/process-nextick-args/package.json
+142 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/pseudomap/package.json
+143 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/q/package.json
+144 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/qs/package.json
+145 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/readable-stream/package.json
+146 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/request/package.json
+147 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/rimraf/package.json
+148 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/sax/package.json
+149 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/shelljs/package.json
+150 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/sigmund/package.json
+151 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/sntp/package.json
+152 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/source-map/package.json
+153 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/sshpk/package.json
+154 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/stream-combiner/package.json
+155 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/string_decoder/package.json
+156 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/stringstream/package.json
+157 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/strip-ansi/package.json
+158 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/supports-color/package.json
+159 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/svgo/package.json
+160 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/tar/package.json
+161 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/tempfile/package.json
+162 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/through2/package.json
+163 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/tiny-lr/package.json
+164 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/tough-cookie/package.json
+165 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/tunnel-agent/package.json
+166 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/tweetnacl/package.json
+167 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/uglify-js/package.json
+168 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/uglify-to-browserify/package.json
+169 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/underscore/package.json
+170 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/underscore.string/package.json
+171 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/util-deprecate/package.json
+172 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/uuid/package.json
+173 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/verror/package.json
+174 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/whet.extend/package.json
+175 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/which/package.json
+176 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/window-size/package.json
+177 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/wordwrap/package.json
+178 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/xtend/package.json
+179 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/yallist/package.json
+180 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/yargs/package.json
+181 verbose installManyTop reading scoped package data from /Users/amandogra/Work/playground/amandogra.github.io/node_modules/zlib-browserify/package.json
+182 info package.json adm-zip@0.4.7 No license field.
+183 info package.json async@0.1.22 No license field.
+184 info package.json aws-sign@0.2.0 No license field.
+185 info package.json bundle@0.2.3 No repository field.
+186 info package.json bundle@0.2.3 No license field.
+187 info package.json cli@0.4.5 No license field.
+188 info package.json coa@0.4.1 No license field.
+189 info package.json coffee-script@1.3.3 No license field.
+190 info package.json colors@0.6.2 No license field.
+191 info package.json commander@0.5.2 No license field.
+192 info package.json console-browserify@0.1.6 No license field.
+193 info package.json cookie-jar@0.2.0 No license field.
+194 info package.json dateformat@1.0.2-1.2.3 No repository field.
+195 info package.json dateformat@1.0.2-1.2.3 No license field.
+196 info package.json debug@0.7.4 No license field.
+197 info package.json diff@1.0.2 No license field.
+198 info package.json domelementtype@1.3.0 No license field.
+199 info package.json domhandler@2.1.0 No license field.
+200 info package.json domutils@1.1.6 No license field.
+201 info package.json duplexer@0.1.1 No license field.
+202 info package.json esprima@1.0.4 No license field.
+203 info package.json exit@0.1.2 No license field.
+204 info package.json extsprintf@1.0.2 No license field.
+205 info package.json faye-websocket@0.4.4 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+206 info package.json faye-websocket@0.4.4 No license field.
+207 info package.json filesize@2.0.4 No license field.
+208 info package.json findup-sync@0.1.3 No license field.
+209 info package.json fstream@0.1.31 license should be a valid SPDX license expression
+210 info package.json gaze@0.4.3 No license field.
+211 info package.json getobject@0.1.0 No license field.
+212 info package.json gifsicle@0.1.7 license should be a valid SPDX license expression
+213 info package.json glob@3.1.21 license should be a valid SPDX license expression
+214 info package.json globule@0.1.0 No license field.
+215 info package.json graceful-fs@1.2.3 license should be a valid SPDX license expression
+216 info package.json growl@1.7.0 No repository field.
+217 info package.json growl@1.7.0 No license field.
+218 info package.json grunt@0.4.5 No license field.
+219 info package.json grunt-contrib-imagemin@0.5.0 No license field.
+220 info package.json grunt-contrib-jshint@0.8.0 No license field.
+221 info package.json grunt-contrib-uglify@0.3.3 No license field.
+222 info package.json grunt-contrib-watch@0.5.3 No license field.
+223 info package.json grunt-imgcompress@0.1.2 No license field.
+224 info package.json grunt-legacy-log-utils@0.1.1 No license field.
+225 info package.json grunt-legacy-util@0.2.0 No license field.
+226 info package.json grunt-lib-contrib@0.6.1 No license field.
+227 info package.json grunt-newer@0.7.0 No license field.
+228 info package.json grunt-surround@0.1.0 No license field.
+229 info package.json grunt-svgmin@0.3.1 No license field.
+230 info package.json hooker@0.2.3 No license field.
+231 info package.json htmlparser2@3.3.0 No license field.
+232 info package.json jade@0.25.0 No license field.
+233 info package.json jpegtran-bin@0.2.8 license should be a valid SPDX license expression
+234 info package.json jsbn@0.1.0 license should be a valid SPDX license expression
+235 info package.json js-yaml@2.0.5 license should be a valid SPDX license expression
+236 info package.json jshint@2.4.4 No license field.
+237 info package.json json-schema@0.2.2 No license field.
+238 info package.json mime@1.2.11 No license field.
+239 info package.json minimatch@0.2.14 license should be a valid SPDX license expression
+240 info package.json mkdirp@0.3.0 license should be a valid SPDX license expression
+241 info package.json mocha@1.9.0 No license field.
+242 info package.json mout@0.7.1 No license field.
+243 info package.json ms@0.3.0 No repository field.
+244 info package.json ms@0.3.0 No license field.
+245 info package.json node-uuid@1.4.7 No license field.
+246 info package.json nopt@1.0.10 license should be a valid SPDX license expression
+247 info package.json noptify@0.0.3 No license field.
+248 info package.json optipng-bin@0.3.11 license should be a valid SPDX license expression
+249 info package.json q@0.9.7 license should be a valid SPDX license expression
+250 info package.json rimraf@2.2.8 license should be a valid SPDX license expression
+251 info package.json sax@0.6.1 license should be a valid SPDX license expression
+252 info package.json shelljs@0.1.4 No license field.
+253 info package.json sntp@1.0.9 No license field.
+254 info package.json source-map@0.1.34 No license field.
+255 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+256 info package.json svgo@0.4.5 No license field.
+257 info package.json tar@0.1.20 license should be a valid SPDX license expression
+258 info package.json tiny-lr@0.0.4 No license field.
+259 info package.json uglify-js@2.4.24 license should be a valid SPDX license expression
+260 info package.json underscore@1.7.0 No license field.
+261 info package.json underscore.string@2.2.1 No license field.
+262 info package.json uuid@1.4.2 No license field.
+263 info package.json verror@1.3.6 No license field.
+264 info package.json window-size@0.1.0 No license field.
+265 info package.json wordwrap@0.0.2 license should be a valid SPDX license expression
+266 info package.json yargs@3.5.4 license should be a valid SPDX license expression
+267 verbose readDependencies loading dependencies from /Users/amandogra/Work/playground/amandogra.github.io/package.json
+268 silly cache add args [ 'jekyll-sitemap', null ]
+269 verbose cache add spec jekyll-sitemap
+270 silly cache add parsed spec Result {
+270 silly cache add   raw: 'jekyll-sitemap',
+270 silly cache add   scope: null,
+270 silly cache add   name: 'jekyll-sitemap',
+270 silly cache add   rawSpec: '',
+270 silly cache add   spec: '*',
+270 silly cache add   type: 'range' }
+271 silly addNamed jekyll-sitemap@*
+272 verbose addNamed "*" is a valid semver range for jekyll-sitemap
+273 silly addNameRange { name: 'jekyll-sitemap', range: '*', hasData: false }
+274 silly mapToRegistry name jekyll-sitemap
+275 silly mapToRegistry using default registry
+276 silly mapToRegistry registry https://registry.npmjs.org/
+277 silly mapToRegistry uri https://registry.npmjs.org/jekyll-sitemap
+278 verbose addNameRange registry:https://registry.npmjs.org/jekyll-sitemap not in flight; fetching
+279 verbose request uri https://registry.npmjs.org/jekyll-sitemap
+280 verbose request no auth needed
+281 info attempt registry request try #1 at 5:57:49 PM
+282 verbose request id ce871311ed2a252b
+283 http request GET https://registry.npmjs.org/jekyll-sitemap
+284 http 404 https://registry.npmjs.org/jekyll-sitemap
+285 verbose headers { 'content-type': 'application/json',
+285 verbose headers   'cache-control': 'max-age=0',
+285 verbose headers   'content-length': '2',
+285 verbose headers   'accept-ranges': 'bytes',
+285 verbose headers   date: 'Fri, 24 Jun 2016 00:57:49 GMT',
+285 verbose headers   via: '1.1 varnish',
+285 verbose headers   age: '0',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+285 verbose headers   'x-cache': 'MISS',
+285 verbose headers   'x-cache-hits': '0',
+285 verbose headers   'x-timer': 'S1466729869.789613,VS0,VE34',
+285 verbose headers   vary: 'Accept-Encoding' }
+286 silly get cb [ 404,
+286 silly get   { 'content-type': 'application/json',
+286 silly get     'cache-control': 'max-age=0',
+286 silly get     'content-length': '2',
+286 silly get     'accept-ranges': 'bytes',
+286 silly get     date: 'Fri, 24 Jun 2016 00:57:49 GMT',
+286 silly get     via: '1.1 varnish',
+286 silly get     age: '0',
+286 silly get     connection: 'keep-alive',
+286 silly get     'x-served-by': 'cache-sjc3123-SJC',
+286 silly get     'x-cache': 'MISS',
+286 silly get     'x-cache-hits': '0',
+286 silly get     'x-timer': 'S1466729869.789613,VS0,VE34',
+286 silly get     vary: 'Accept-Encoding' } ]
+287 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/jekyll-sitemap
+287 verbose stack     at makeError (/Users/amandogra/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:263:12)
+287 verbose stack     at CachingRegistryClient.<anonymous> (/Users/amandogra/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:241:14)
+287 verbose stack     at Request._callback (/Users/amandogra/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:171:14)
+287 verbose stack     at Request.self.callback (/Users/amandogra/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/request/request.js:198:22)
+287 verbose stack     at emitTwo (events.js:87:13)
+287 verbose stack     at Request.emit (events.js:172:7)
+287 verbose stack     at Request.<anonymous> (/Users/amandogra/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/request/request.js:1073:14)
+287 verbose stack     at emitOne (events.js:82:20)
+287 verbose stack     at Request.emit (events.js:169:7)
+287 verbose stack     at IncomingMessage.<anonymous> (/Users/amandogra/.nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/request/request.js:1019:12)
+288 verbose statusCode 404
+289 verbose pkgid jekyll-sitemap
+290 verbose cwd /Users/amandogra/Work/playground/amandogra.github.io
+291 error Darwin 15.5.0
+292 error argv "/Users/amandogra/.nvm/versions/node/v4.1.2/bin/node" "/Users/amandogra/.nvm/versions/node/v4.1.2/bin/npm" "install" "jekyll-sitemap"
+293 error node v4.1.2
+294 error npm  v2.14.4
+295 error code E404
+296 error 404 Registry returned 404 for GET on https://registry.npmjs.org/jekyll-sitemap
+296 error 404
+296 error 404 'jekyll-sitemap' is not in the npm registry.
+296 error 404 You should bug the author to publish it (or use the name yourself!)
+296 error 404 It was specified as a dependency of 'skinny-bones-jekyll'
+296 error 404
+296 error 404 Note that you can also install from a
+296 error 404 tarball, folder, http url, or git url.
+297 verbose exit [ 1, true ]
