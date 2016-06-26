@@ -13,6 +13,7 @@ ads: false
 date: 2016-04-04T12:01:12-07:00
 startdate: 2016-01-14
 enddate: 2016-04-14
+published: true
 ---
 
 <http://bhaktiwomen.org>

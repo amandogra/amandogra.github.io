@@ -8,6 +8,7 @@ title: "Projects"
   <ul class="post-list">
 {% for post in site.categories.work %}
 
+{% if post.published == true %}
 <li>
     <span class="post-meta">{{ post.startdate | date: "%b, %Y" }} - {{ post.enddate | date: "%b, %Y" }}</span>
 
@@ -16,6 +17,7 @@ title: "Projects"
     </h2>
     <div class="crux">{{ post.excerpt }}</div>
 </li>
+{% endif %}
 
 {% endfor %}
 </ul>
