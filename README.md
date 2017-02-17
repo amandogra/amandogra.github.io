@@ -1,6 +1,6 @@
 # Aman Dogra
 
-This repository contains the source code for [amandogra.com](http://www.amandogra.com)
+This repository contains the source code for [amandogra.github.io](http://www.amandogra.github.io)
 
 The code is using Jekyll framework for website generation. The idea of folder structuring has come from [Skinny bones jekyll theme](http://mmistakes.github.io/skinny-bones-jekyll)
 
